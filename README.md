@@ -1,4 +1,7 @@
 # sms2api
+SMS2API, will rad all the messages from the installed device and sent to the API specified in the below config. 
+
+*****Note: This send all the mesasge, Please implement filters on your own...working commits are welcome.
 
 //Update the Public URL/API end point which accept the POST request. For intranet the end point should be able to reach from the mobile
 val request = Request.Builder()
